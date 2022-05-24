@@ -13,7 +13,7 @@ Project Sekai 帮助文档(随缘更新)
 
 ## 常用网站
 
-查分 查收歌进度:[Project Sekai Profile (pjsekai.moe)](https://profile.pjsekai.moe/#/)
+查分 查歌曲完成进度:[Project Sekai Profile (pjsekai.moe)](https://profile.pjsekai.moe/#/)
 
 查活动 卡面 角色信息 歌曲谱面等(也可以玩Live2D):[Sekai Viewer](https://sekai.best/)
 
@@ -29,9 +29,49 @@ Project Sekai 帮助文档(随缘更新)
 
 
 
+## 关于Profile
+
+上文提到的[Project Sekai Profile (pjsekai.moe)](https://profile.pjsekai.moe/#/)网站,有部分小伙伴会打不开
+
+作者有提供站点源代码和部署方法,链接为[Project Sekai / Profile · GitLab](https://gitlab.com/pjsekai/profile)
+
+有能力的可以将其部署到国内服务器上供那些打不开的玩家使用
+
+
+
 ## 数据源
 
-晚点写()
+游戏的大部分数据都在这里了(不包含玩家活动分数排名)[Database](https://gitlab.com/pjsekai/database)
+
+这里列出了一些可能会用到的文件,还有很多文件可以自行探索
+
+其中`Database\Music`中的`musics.json` `musicDifficulties.json`这两个文件包含更详细的歌曲信息和全服玩家完成情况
+
+| 文件名                              | 备注           |
+| ----------------------------------- | -------------- |
+| musics.json\|musicDifficulties.json | 歌曲信息       |
+| cheerfulCarnivalTeams.json          | 协力阵营队伍名 |
+| gameCharacters.json                 | 角色信息       |
+| limitedLoginBonuses.json            | 限时登录奖励   |
+| penlightColors.json                 | 应援色         |
+| virtualLives.json                   | live信息       |
+| levels.json                         | 游戏版本信息   |
+
+另外这个仓库中还有API 不过我们没有权限是看不到的()
+
+profile 中的数据就是从这个api获取的[API](https://api.pjsekai.moe/api/user/)
+
+调用方式
+
+`https://api.pjsekai.moe/api/user/%7Buser_id%7D/event/活动id/ranking?targetUserId=游戏id`
+
+或者
+
+`...ranking?targetRank=200`
+
+!!!请勿滥用!!!
+
+
 
 ## 萝卜们
 
@@ -79,7 +119,7 @@ TIPS:需要有网络基础以及编程基础
    
       ​	(你问我图图呢,忘备份没了!上面这张图还是云盘里找到的(有空补上))
    
-   3. 加解密方式可以参考[PackHelper.cs](https://github.com/cc004/BandoriBot/blob/master/SekaiClient/PackHelper.cs)彩彩萝卜的(看 这才是真大佬!)
+   3. 数据包加解密可以参考[PackHelper.cs](https://github.com/cc004/BandoriBot/blob/master/SekaiClient/PackHelper.cs)彩彩萝卜的(看 这才是真大佬!)
    
       * AES加密模式为CBC
       * 填充采用PKCS7
