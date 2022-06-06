@@ -41,9 +41,11 @@ Project Sekai 帮助文档(随缘更新)
 
 解包数据:[pjsek.ai](https://pjsek.ai/)
 
-官方推特:
+官网:[日服官网](https://pjsekai.sega.jp/)
 
-wiki:
+官方推特:[日服(@pj_sekai)](https://twitter.com/pj_sekai),[国际服(@ColorfulStageEN)](https://twitter.com/ColorfulStageEN),[韩服(@kr_pjsekai)](https://twitter.com/kr_pjsekai/)
+
+萌百wiki:[世界计划 彩色舞台 feat. 初音未来 - 萌娘百科 万物皆可萌的百科全书 (moegirl.org.cn)](https://zh.moegirl.org.cn/世界计划_彩色舞台_feat._初音未来)
 
 
 
