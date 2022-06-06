@@ -25,6 +25,18 @@ wiki:
 
 
 
+## 数据包
+
+游戏内数据包,下载后解压到`Android/data`下即可
+
+能免去漫长的数据包下载时间
+
+蓝奏云:comming soon...
+
+阿里云盘:comming soon...
+
+正在测试数据包的可用性 以及后续更新的问题
+
 ## ECHO帮助
 
 ### PJSK命令
@@ -53,6 +65,8 @@ wiki:
 作者有提供站点源代码和部署方法,链接为[Project Sekai / Profile · GitLab](https://gitlab.com/pjsekai/profile)
 
 有能力的可以将其部署到国内服务器上供那些打不开的玩家使用
+
+不过该项目并==未设置许可证== 随意使用和修改或将面临知识产权诉讼的危险
 
 
 
