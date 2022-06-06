@@ -7,6 +7,8 @@ Project Sekai 帮助文档(随缘更新)
 
 欢迎来群里玩! [704068376](https://qm.qq.com/cgi-bin/qm/qr?k=qkLGygmMTqu_5hj5d4NAXpCAncfB8HQc&jump_from=webapi)(答案是pjsk)
 
+如果想把 ECHO 拉到别的群,请先加上面那个群,然后加 ECHO 好友即可拉群
+
 ![logo](http://q1.qlogo.cn/g?b=qq&nk=845064550&s=160)
 
 
