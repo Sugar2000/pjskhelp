@@ -21,6 +21,7 @@ Project Sekai 帮助文档(随缘更新)
 | ------------- | ------------------------------------------------------------ |
 | bind `游戏ID` | 绑定账号 游戏ID可以从游戏内个人资料页获取<br />例如bind 12345678987654 |
 | echo          | 查询分数排名                                                 |
+| mr            | 查询大师赛情况(排位)                                         |
 | rank `排名`   | 获取指定排名的分数<br />例如rank 100                         |
 | target `排名` | 设置追赶排名<br />例如target 1000<br />追赶排名1000 设置完毕后使用echo会返回你的分数和目标的分数<br />并计算差距 以及分数上升速度 |
 | 世界线        | 查询结活时各个分段的预期分数线 \| 中文命令                   |
@@ -41,9 +42,11 @@ Project Sekai 帮助文档(随缘更新)
 
 解包数据:[pjsek.ai](https://pjsek.ai/)
 
-官方推特:
+官网:[日服官网](https://pjsekai.sega.jp/)
 
-wiki:
+官方推特:[日服(@pj_sekai)](https://twitter.com/pj_sekai),[国际服(@ColorfulStageEN)](https://twitter.com/ColorfulStageEN),[韩服(@kr_pjsekai)](https://twitter.com/kr_pjsekai/)
+
+萌百wiki:[世界计划 彩色舞台 feat. 初音未来 - 萌娘百科 万物皆可萌的百科全书 (moegirl.org.cn)](https://zh.moegirl.org.cn/世界计划_彩色舞台_feat._初音未来)
 
 
 
